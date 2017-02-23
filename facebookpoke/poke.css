@@ -1,0 +1,32 @@
+*{margin:0;padding:0;text-decoration:none; font-family:Arial, sans-serif; list-style:square;}
+
+body { background-color:#89cff0;}
+/*header*/
+header { color:black;}
+header #facebookpokefeature {font-size:40px; margin:4rem auto; text-align:center; border-bottom:2px solid black;}
+nav {margin-bottom:2rem;}
+#ul00 {margin:0 auto; margin-bottom:50px;}
+#ul00 li { display:inline; margin-left:20px;}
+#ul00 li a:visited {color:black;}
+#ul00 #ul001 a:hover {color:white;}
+#ul00 #ul002 a:hover {color:white;}
+#ul00 #ul003 a:hover {color:white;}
+a:visited {color:black;}
+a:link { color:black;}
+#ul03 li a:hover {color:white;}
+/*body*/
+#main { width:1024px; margin:0 auto; position:relative; margin-bottom:5rem;}
+div h3 {margin:2.5rem; clear:both;}
+
+div h5 {margin:0.8rem;}
+div h4 { margin-bottom:25px;}
+div p{font-weight:normal; width:60%;}
+p#whoexplanation {float:right;}
+#poke {float:right; width:200px; height:auto;}
+
+/*img*/
+#facebook {width:20rem;height:auto;}
+
+
+/*footer*/
+#references { margin-top:5rem;}
