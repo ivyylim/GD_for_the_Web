@@ -4,26 +4,31 @@
 <head>
   <title>IvyLim</title>
   <meta charset="utf-8" />
-  <style>
-  h1{color:orange; text-align:center; text-decoration:underline;}
-  </style>
+ <link rel="stylesheet" type="text/css" href="index.css">
+ <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+  
 </head>
 
 <body>
-  <div class="main">
-    <h1>Ivy Lim</h1>  
+  <div id="main">
+    <header>
+    <h1 id="header">Ivy Lim</h1>  
+  </header>
     <div id="exercises">
-      <h3>Exercises</h3>
-      <a href="#" target="_blank">setting up your class website</a>
-      <a href="taxonomyimages/taxonomy.html" target="_blank">Taxonomy</a>
-    </div>
+      <h3 class="subheader">Exercises</h2>
+      <!--<a href="#" target="_blank">setting up your class website</a>-->
+      <a class="subject" href="taxonomyimages/taxonomy.html" target="_blank">Taxonomy of My Archives</a>
+    </div><!--exercises-->
     
     <div id="projects">
-      <h3>Projects</h3>
-      <a href="facebookpoke/poke.html">project 1</a><br>
-    </div>
-  </div>
+      <h3 class="subheader">Projects</h2>
+      <a class="subject" href="facebookpoke/poke.html" target="_blank">Digital Archives</a><br>
+    </div><!--projects-->
+   </div><!--main-->
 
-  <div id="extra">extra</div>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  <script src="jquery-3.1.0.min.js"></script>
+  <script src="index.js" type="text/javascript"></script>
 </body>
 </html>
