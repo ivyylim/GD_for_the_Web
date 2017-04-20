@@ -1,6 +1,6 @@
 $(document).ready(function(){
 $("body").click(function(){
-	$(this).addclass("kakaotalk");
+	$("body").addclass("kakaotalk");
 });
 
 });//ready

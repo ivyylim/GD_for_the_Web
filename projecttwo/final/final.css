@@ -71,6 +71,6 @@ transition: all 1s ease-out;
 
 
 
-
+#audio {position:fixed;z-index:20000; left:0; top:0;}
 
 
