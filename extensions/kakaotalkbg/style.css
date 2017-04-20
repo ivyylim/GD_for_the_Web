@@ -1,0 +1,16 @@
+.kakaotalk {
+	transition: all 3s ease-in-out;
+     animation: random 80s infinite; background-size:cover; background-position:center;
+
+ }
+ 
+ @keyframes  random {
+    10% { background-image:url("img/bg01.png"); opacity:0.5;} 
+    20% { background-image:url("img/bg02.png"); opacity:0.5;}
+    35% { background-image:url("img/bg03.png"); opacity:0.5;} 
+    45% { background-image:url("img/bg04.png"); opacity:0.5;}
+    55% { background-image:url("img/bg05.png"); opacity:0.5;}  
+    70% { background-image:url("img/bg06.png"); opacity:0.5;}  
+    85% { background-image:url("img/bg07.png"); opacity:0.5;} 
+    100% {background-image:url("img/bg08.png"); opacity:0.5;}      
+};
