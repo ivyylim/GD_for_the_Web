@@ -1,8 +1,21 @@
+
+// when you click on the page 'body' apply .gradient to it from the CSS
+
 $(document).ready(function(){
-$("body").click(function(){
-	$("body").addclass("kakaotalk");
+ $("body").addClass("kakaotalk");
+
+
 });
 
-});//ready
+/*$('body').click(function() {
+	$(this).addClass('kakaotalk');
+});*/
+
+
+
+
+
+
+
 
 
