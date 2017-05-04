@@ -41,7 +41,7 @@ body{cursor:pointer;}
 /*li04*/
 #dog{z-index: 200; position:absolute; display:none; left:-10rem;}
 #boxingring{z-index:100; position:absolute; display:none; width:100%;}
-#punch {z-index: 220; position:absolute; display:none; transform: scale(0.7, 0.7); top:40%; cursor:move;}
+#punch {z-index: 220; position:absolute; display:none; transform: scale(0.7, 0.7); left: 20%; top:30%; cursor:move;}
 #gorilla {z-index:200; position:absolute; display:none; left:45%;}
 #gorillahabitat{z-index:100; width:100%; display:none;}
 #dogplayful{position:absolute; display:none;}

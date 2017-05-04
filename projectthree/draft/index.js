@@ -61,6 +61,7 @@ $("#boxingring").click(function(){
 	 $("#punch").show().draggable();
 	 $("#gorilla").show();
 	 $("#gorillahabitat").show();
+   $("#li04p").hide();
 });//click 
 
 $("#gorillahabitat").click(function(){
