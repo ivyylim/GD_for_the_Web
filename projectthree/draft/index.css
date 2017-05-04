@@ -45,3 +45,4 @@ body{cursor:pointer;}
 #gorilla {z-index:200; position:absolute; display:none; left:45%;}
 #gorillahabitat{z-index:100; width:100%; display:none;}
 #dogplayful{position:absolute; display:none;}
+#li04p {position:absolute; z-index:200; font-size:4rem; color:white; left:40%; bottom:10%; display:none; }

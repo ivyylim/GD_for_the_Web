@@ -51,6 +51,7 @@ $("#roadto").click(function(){
   $("#li03 p").hide();
   $("#dog").show();
   $("#boxingring").show();
+  $("#li04p").show();
 
   });//click
 
@@ -67,6 +68,7 @@ $("#gorillahabitat").click(function(){
 	  $("#punch").fadeOut();
 	  $("#gorilla").fadeOut();
 	  $("#dogplayful").show();
+
 });//click 
 
 
