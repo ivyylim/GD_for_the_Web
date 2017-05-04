@@ -5,7 +5,7 @@ body{cursor:pointer;}
 
 /*ul01*/
 /*li01*/
-#purple {z-index:900;}
+#purple {z-index:900; width:100%;}
 #telephone {z-index:800; left:10rem; display:none;}
 #telephonee {z-index:760;display:none; left:5rem; top:15rem;
 	animation: telephonedance 2s ease alternate infinite; transform-origin: 67% 50%; }
