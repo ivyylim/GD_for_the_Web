@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Project 1 final</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+<body>
+	<div id="main">
+		<h1><span id="span01">Poke </span> = <span id="span02">Prod </span>= <span id="span03">Nudge </span>= <span id="span04">Stab </span>= <span id="span05">Push </span>= <span id="span06">Dig</span></h1>
+		<ul id="ul01">
+			<li id="li01"><img id= "img01" src="img/markzuckerberg.png"/></li>
+			<li id="li02"><img id= "img02" src="img/timcook.png"/></li>
+			<li id="li03"><img id= "img03" src="img/gustavomartinez.png"/></li>
+			<li id="li04"><img id= "img04" src="img/ubermanager.png"/></li>
+			<li id="li05"><img id= "img05" src="img/satyanadella.png"/></li>
+			<li id="li06"><img id= "img06" src="img/peterthiel.png"/></li>
+		</ul><!--ul01-->
+		
+		<div id="markzuckerberg">
+			<p><strong>Mark Zuckerberg</strong><br>Facebook was set up as a type of “hot or not” game for Harvard students. The website allowed visitors to compare two student pictures side-by-side and let them decide who was hot or not.<br>
+			<a href="https://en.wikipedia.org/wiki/History_of_Facebook" target="_blank">Go to link</a>
+			</p>
+		</div>
+		<div id="timcook">
+			<p>
+				<strong>Tim Cook</strong><br>
+				One woman, using the pseudonym Danielle in the interview with Mic, said that some of her male co-workers joked about the possibility of a man entering their office to "rape everybody." After repeated attempts to file formal complaints about the "toxic" work environment with managers, Danielle is said to have escalated the concerns to Apple CEO Tim Cook.Danielle says Cook never responded to the concern.<br>
+				<a href="http://fortune.com/2016/09/15/apple-employees-sexist-environment/" target="_blank">Go to link</a>
+		</p>
+		</div>
+		<div id="gustavomartinez">
+			<p>
+				<strong>Gustavo Martinez</strong><br>
+				A longtime employee accused CEO Gustavo Martinez of J. Walter Thompson in a lawsuit of speaking about raping female staff.<br>
+				<a href="https://qz.com/642649/another-major-advertising-ceo-just-got-ousted-for-alleged-racist-and-sexist-slurs/" target="_blank">Go to link</a>
+			</p>
+		</div>
+		<div id="ubermanager">
+			
+			<p>
+				<strong>Managers at Uber</strong><br>
+				"In my first official day rotating on the team, my new manager sent me a string of messages over company chat. He was in an open relationship, he said, and his girlfriend was having an easy time finding new partners but he wasn't. He was trying to stay out of trouble at work, he said, but he couldn't help getting in trouble, because he was looking for women to have sex with. When I told the Upper management, they told me that he "was a high performer" (i.e. had stellar performance reviews from his superiors) and they wouldn't feel comfortable punishing him for what was probably just an innocent mistake on his part." - Susan Fowler<br>
+			<a href="https://tech.slashdot.org/story/17/02/20/149244/former-engineer-says-uber-is-a-nightmare-of-sexism-ceo-orders-urgent-investigation" target="_blank">Go to link</a>
+			</p>
+		</div>
+		<div id="satyanadella">
+			<p>
+				<strong>Satya Nadella</strong><br>
+				Microsoft CEO's sexist view of women, dressed up as advice <br> Around October 2014, Microsoft Chief Executive Satya Nadella's stated that, The way professional women can get raises, he explained at a conference of women technologists on Thursday, is to avoid asking for one. Women should simply trust that the system, particularly male-dominated tech, will reward them. <br>
+				<a href="http://www.latimes.com/local/abcarian/la-me-ra-microsoft-ceos-awful-advice-to-women-20141010-htmlstory.html" target="_blank">Go to link</a>
+			</p>
+		</div><!-- satyanadella-->
+		<div id="peterthiel">
+			<p>
+				<strong>Peter Thiel</strong><br>
+				In an essay published in 2009, he surprised many when he wrote that giving women the right to vote — by constitutional amendment in 1920 — was a blow to democracy. <br>
+
+				"Since 1920, the vast increase in welfare beneficiaries and the extension of the franchise to women — two constituencies that are notoriously tough for libertarians — have rendered the notion of “capitalist democracy” into an oxymoron."<br>
+
+				<a href="http://www.huffingtonpost.com/entry/peter-thiel-women-democracy_us_5747079be4b03ede4413f6f5" target="_blank">Go to link</a>	
+			</p>
+		</div><!-- peterthiel-->
+	</div><!--main-->
+	<script type="text/javascript" src="index.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script>
+$(document).ready(function(){
+	//$("li").draggable();//
+
+	$("#li01").click(function(){
+		$('#markzuckerberg').Toggle("fast");
+	});//#li01
+
+	$("#li02").click(function(){
+		$('#timcook').slideToggle("fast")
+	});//#li010
+
+	$("#li03").click(function(){
+		$('#gustavomartinez').slideToggle("fast")
+	});//#li010
+
+	$("#li04").click(function(){
+		$('#ubermanager').slideToggle("fast")
+	});//#li010
+
+	$("#li05").click(function(){
+		$('#satyanadella').slideToggle("fast")
+	});//#li010
+
+	$("#li06").click(function(){
+		$('#peterthiel').slideToggle("fast")
+	});//#li010
+
+});//ready
+</script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+*{margin:0; padding:0; list-style:none; text-decoration:none; font-family: 'Oswald', sans-serif;}
+
+body {background-color:white; cursor:url("img/element.png"),auto;}
+/*main*/
+#main { border:1px solid white;}
+#main #ul01 { width:75%; float:left; }
+#main #ul01 li {width:22%; float:left; margin:1rem; padding:0.5rem; z-index:88888;}
+#main #ul01 li img {width:100%; float:right; z-index:9999;}
+#li01:hover {background-color:#bb3d76;}
+#li02:hover {background-color: #9016db;}
+#li03:hover {background-color: #6d5560;}
+#li04:hover {background-color: #b12a1d;}
+#li05:hover {background-color: #074391;}
+#li06:hover {background-color:#dce404;}
+
+
+/*h1 */
+h1 {color:black; font-weight:bold; margin:1rem; background-color:white; display:inline-block;}
+#span01 {color:#bb3d76;}
+#span02 {color:#9016db;}
+#span03 {color:#6d5560;}
+#span04 {color:#b12a1d;}
+#span05 {color:#074391;}
+#span06 {color:#dce404;}
+
+
+
+/*img cursor*/
+#ul01 #li01 {cursor:url("img/poke.png"),auto;}
+#ul01 #li02 {cursor:url("img/prod.png"), auto;}
+#ul01 #li03 {cursor:url("img/elboww.png") 50 40, auto;}
+#ul01 #li04 {cursor:url("img/stab.png") 50 40, auto;}
+#ul01 #li05 {cursor:url("img/kickboxing.png") 50 40, auto;}
+#ul01 #li06 {cursor:url("img/dig.png") 5 5, auto;}
+
+
+/*drag*/
+/*#drag {border:2px dashed black; background-color:white; width:250px; height:330px; position:absolute; left:60%; top:27%;}*/
+#markzuckerberg p{border:2px dashed black; background-color:white; font-size:1rem; width:350px; position:absolute; left:60%; top:27%; padding:1rem;}
+#markzuckerberg a:link, a:visited, a:hover, a:active {color:black;}
+#markzuckerberg a:hover {text-decoration:underline;}
+
+
+#timcook p{border:2px dashed black; background-color:white; font-size:1rem; width:350px; position:absolute; left:60%; top:27%; padding:1rem; }
+#timcook a:link, a:visited, a:hover, a:active {color:black;}
+#timcook a:hover {text-decoration:underline;}
+
+
+#gustavomartinez p{border:2px dashed black; background-color:white; font-size:1rem; width:350px;  position:absolute; left:60%; top:27%; padding:1rem;}
+#gustavomartinez a:link, a:visited, a:hover, a:active {color:black;}
+#gustavomartinez a:hover {text-decoration:underline;}
+
+
+#ubermanager p{border:2px dashed black; background-color:white; font-size:1rem; width:350px;  position:absolute; left:60%; top:27%; padding:1rem;}
+#ubermanager a:link, a:visited, a:hover, a:active {color:black;}
+#ubermanager a:hover {text-decoration:underline;}
+
+
+#satyanadella p{border:2px dashed black; background-color:white; font-size:1rem; width:350px;  position:absolute; left:60%; top:27%; padding:1rem;}
+#satyanadella a:link, a:visited, a:hover, a:active {color:black;}
+#satyanadella a:hover {text-decoration:underline;}
+
+
+#peterthiel p{border:2px dashed black; background-color:white; font-size:1rem; width:350px;  position:absolute; left:60%; top:27%; padding:1rem;}
+#peterthiel a:link, a:visited, a:hover, a:active {color:black;}
+#peterthiel a:hover {text-decoration:underline;}
+
